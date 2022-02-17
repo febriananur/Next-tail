@@ -1,7 +1,10 @@
 const plugin = require("tailwindcss/plugin");
 
 module.exports = {
-  content: ["./pages/**/*.{js,ts,jsx,tsx}", "./components/**/*.{js,ts,jsx,tsx}"],
+  content: [
+    "./pages/**/*.{js,ts,jsx,tsx}",
+    "./components/**/*.{js,ts,jsx,tsx}",
+  ],
   theme: {
     extend: {
       fontFamily: {
@@ -21,6 +24,7 @@ module.exports = {
           800: "#746802",
           900: "#3C3601",
         },
+        Sectionskill: "#F7F7FB",
       },
     },
   },
@@ -29,6 +33,9 @@ module.exports = {
       const utilities = {
         ".bg-hero": {
           "background-image": "url(/hero.png)",
+        },
+        ".shadow-card": {
+          "box-shadow": "0px 15px 30px rgba(0, 0, 0, 0.1)",
         },
       };
       addUtilities(utilities);
