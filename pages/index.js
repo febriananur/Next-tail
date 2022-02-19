@@ -1,15 +1,17 @@
 import Hero from "../components/Hero";
 import Profile from "../components/Profile";
-import SectionSkill from "../components/SectionSkills";
-import SectionProject from "../components/SectionProject";
+import SkillSection from "../components/SkillsSection";
+import ProjectSection from "../components/ProjectSection";
+import ContactSection from "../components/ContactSection";
 
 export default function Home() {
   return (
     <>
       <Hero />
       <Profile />
-      <SectionSkill />
-      <SectionProject></SectionProject>
+      <SkillSection />
+      <ProjectSection></ProjectSection>
+      <ContactSection></ContactSection>
     </>
   );
 }
