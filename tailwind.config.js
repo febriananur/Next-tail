@@ -27,6 +27,7 @@ module.exports = {
         primarygray: {
           DEFAULT: "#F7F7FB",
           200: "#E8E8F8",
+          300: "#BFBFE3",
         },
       },
     },

@@ -1,6 +1,8 @@
 import SectionTitle from "./SectionTitle";
 import SectionParagraph from "./SectionParagraph";
 import ContactItem from "./ContactItem";
+import Field from "./Field";
+import Button from "./Button";
 
 export default function ContactSection() {
   return (
@@ -32,8 +34,28 @@ export default function ContactSection() {
             />
           </div>
         </div>
+        <div className="w-6/12">
+          <form className="py-16 px-20">
+            <div className="flex -mx-4">
+              <div className="w-6/12 px-4">
+                <Field label="Name" name="Name" type="text" />
+              </div>
+              <div className="w-6/12 px-4">
+                <Field label="Email" name="email" type="text" />
+              </div>
+            </div>
+            <Field label="Subject" name="subject" type="text" />
+            <Field
+              label="Message"
+              name="message"
+              type="textarea"
+              className="h-40"
+            />
+            {/* progress */}
+            <Button variant="black">Send</Button>
+          </form>
+        </div>
       </div>
-      <div className="w-6/12"></div>
     </section>
   );
 }

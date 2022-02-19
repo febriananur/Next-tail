@@ -14,7 +14,7 @@ export default function Hero() {
             Sejak SMA mulai mendalami apa itu teknologi jaringan dan berpindah
             menjadi programmer pada saat Kuliah
           </p>
-          <Button variant="yellow" className="mt-14">
+          <Button pill variant="yellow" className="mt-14">
             Learn more
           </Button>
         </div>
