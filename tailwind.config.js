@@ -24,7 +24,10 @@ module.exports = {
           800: "#746802",
           900: "#3C3601",
         },
-        Sectionskill: "#F7F7FB",
+        primarygray: {
+          DEFAULT: "#F7F7FB",
+          200: "#E8E8F8",
+        },
       },
     },
   },

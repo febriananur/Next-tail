@@ -2,7 +2,7 @@ import SectionTitle from "./SectionTitle";
 import SectionParagraph from "./SectionParagraph";
 import ProjectItem from "./ProjectItem";
 
-export default function SectionProject() {
+export default function ProjectSection() {
   return (
     <section className="py-28">
       <div className="container mx-auto">
