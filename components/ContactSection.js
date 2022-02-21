@@ -51,8 +51,9 @@ export default function ContactSection() {
               type="textarea"
               className="h-40"
             />
-            {/* progress */}
-            <Button variant="black">Send</Button>
+            <div className="text-right">
+              <Button variant="black">Send</Button>
+            </div>
           </form>
         </div>
       </div>
