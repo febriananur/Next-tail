@@ -1,9 +1,12 @@
+import classNames from "classnames";
+
 export default function SectionParagraph({ left, children }) {
   return (
     <p
-      className={`text-lg text-gray-600 font-sans ${
-        !left ? " text-center" : ""
-      } mt-2`}
+      className={classNames(
+        "text-lg text-gray-600 font-sans mt-2",
+        !left && " text-center"
+      )}
     >
       {children}
     </p>
