@@ -2,15 +2,15 @@ import SectionTitle from "./SectionTitle";
 import SectionParagraph from "./SectionParagraph";
 export default function Skill() {
   return (
-    <section className="py-28">
-      <div className="container mx-auto">
+    <section className="py-28" id="profile">
+      <div className="container mx-auto px-10 2xl:px-0">
         <SectionTitle>Profile</SectionTitle>
         <SectionParagraph> Mengenal saya secara singkat.</SectionParagraph>
-        <div className="flex items-center mx-auto w-9/12 mt-10">
-          <div className="w-5/12 p-10">
+        <div className="flex lg:items-center md:items-start flex-wrap mx-auto w-9/12 mt-10">
+          <div className="md:w-5/12 w-full px-10 mb-10 md:mb-10">
             <img src="/profile.png" alt="" className="w-full" />
           </div>
-          <div className="w-7/12 px-10">
+          <div className="md:w-7/12 w-full px-10">
             <p className="text-lg leading-relaxed">
               Aliquam blandit leo lorem, nec vehicula mi accumsan posuere. Duis
               condimentum ornare ante a posuere. Aliquam sem magna, sodales quis

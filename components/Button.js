@@ -1,6 +1,6 @@
 import classNames from "classnames";
 
-export default function Button({ className, variant, children, pill }) {
+export default function Button({ className, variant, children, pill, href }) {
   const variants = {
     "outline-yellow": `border border-yellow text-yellow-500 hover:bg-yellow-500 hover:text-black`,
     yellow: "bg-yellow-500 text-black hover:bg-yellow-600 ",
@@ -10,6 +10,7 @@ export default function Button({ className, variant, children, pill }) {
 
   return (
     <a
+      href={href}
       className={classNames(
         "py-3 px-8 font-semibold text-lg inline-block transition",
         pill && "rounded-full",
